@@ -9,7 +9,7 @@ import io
 
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key="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",
+    api_key="TEST_KEY",
 )
 
 def add_data_to_db(input_dict):
